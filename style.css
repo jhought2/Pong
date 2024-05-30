@@ -18,7 +18,7 @@ body {
     position: absolute;
     width: 10px;
     height: 80px;
-    background-color: #fff;
+    background-color: #14e930cc;
 }
 
 #paddle1 {
@@ -35,7 +35,7 @@ body {
     position: absolute;
     width: 15px;
     height: 15px;
-    background-color: #fff;
+    background-color: #e21111;
     left: 392.5px;
     top: 192.5px;
     border-radius: 50%;
