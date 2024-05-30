@@ -13,10 +13,20 @@ l<!DOCTYPE html>
             background-size: cover;
             background-position: center;
             height: 100vh; /* Ensure full height of the viewport */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 3em; /* Adjust the size as needed */
+            color: red; /* Adjust the color */
         }
     </style>
 </head>
 <body>
+    <h1>Pong Game</h1> <!-- Add the title here -->
     <div id="gameArea">
         <div id="paddle1" class="paddle"></div>
         <div id="paddle2" class="paddle"></div>
