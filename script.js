@@ -37,12 +37,12 @@ function moveBall() {
 
     if (
         (ballX <= 10 && ballY >= paddle1Y && ballY <= paddle1Y + 80) ||
-        (ballX >= 775 && ballY >= paddle2Y && ballY <= paddle2Y + 80)
+        (ballX >= 875 && ballY >= paddle2Y && ballY <= paddle2Y + 80)
     ) {
         ballSpeedX = -ballSpeedX;
     }
 
-    if (ballX <= 0 || ballX >= 785) {
+    if (ballX <= 0 || ballX >= 885) {
         ballX = 392.5;
         ballY = 192.5;
     }
