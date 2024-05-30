@@ -7,8 +7,8 @@ let paddle1Y = 160;
 let paddle2Y = 160;
 let ballX = 392.5;
 let ballY = 192.5;
-let ballSpeedX = 2;
-let ballSpeedY = 2;
+let ballSpeedX = 3;
+let ballSpeedY = 3;
 
 document.addEventListener('keydown', (e) => {
     if (e.key === 'w' && paddle1Y > 0) {
